@@ -1,0 +1,69 @@
+/*CSS DOCUMENT*/
+
+div.introimage{
+    width:40%;
+    margin: 1em; 
+}
+
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.9em;
+    text-transform: lowercase;
+    
+}
+div.mainmenu h2{
+    float:left;
+}
+div.mainmenu ul{
+    float:right;
+}
+
+div.mainmenu ul li{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2em;
+    list-style-type: none;
+    float:left;
+    margin: 1em;
+    text-transform: uppercase;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+}
+
+h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    text-align:center;
+}
+img {
+    width: 100%;
+}
+
+h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    text-align:center;
+}
+
+h5{
+    font-family: 'Poppins', sans-serif;
+    font-size: .8em;
+    text-transform: uppercase;
+    text-align:center;
+}
+
+.shoppingcart{
+    float:left;
+}
+
+ul{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em; 
+}
