@@ -1,0 +1,131 @@
+/*CSS DOCUMENT*/
+
+div.introimage{
+    width:40%;
+    margin: 2em 0; 
+}
+
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.9em;
+    text-transform: lowercase;
+    color: #c1a1cc;
+    margin: 0em;
+    
+}
+div.mainmenu h2{
+    float:left;
+}
+div.mainmenu ul{
+    float:right;
+    padding: 0em;
+}
+
+div.mainmenu ul li{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2em;
+    list-style-type: none;
+    float:left;
+    margin: 0em 0em 0em 1em;
+    text-transform: uppercase;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    text-align: center;
+    margin:1.5em 1.2em .5em 1.2em;
+    
+    
+}
+
+h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    text-align:center;
+}
+img {
+    width: 100%;
+}
+
+h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    text-align:center;
+}
+
+h5{
+    font-family: 'Poppins', sans-serif;
+    font-size: .8em;
+    text-transform: uppercase;
+    text-align:center;
+}
+
+div.shoppingcart h2{
+    clear:both;
+    float:left;
+    text-align:left;
+    margin: 1em 0em 0em 0em;
+}
+
+ul{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em; 
+}
+
+.products {
+    clear: both;
+}
+
+.products li{
+    width: 45%;
+    display: inline-block;
+    margin-left: auto;
+    margin-right:auto;
+    margin-bottom:2em;
+    padding: 0em 0.5em;
+}
+
+div.about p{
+    text-align: center;
+    padding: 0 1em .5em 1em;
+}
+
+
+div.about{
+    background-color: #e3d5e8;
+    padding: .5em
+}
+
+div.about h3{
+    color:#561A8B;
+}
+
+table, th, td {
+  border: .1em solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: .5em;
+}
+
+table{
+    margin:0 0 4em 0em;
+}
+
+th {
+  text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-size: .8em;
+}
+
+td {
+  text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-size: .8em;
+}  
