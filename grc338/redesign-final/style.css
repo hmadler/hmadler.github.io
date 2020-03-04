@@ -1,31 +1,40 @@
 /*CSS DOCUMENT*/
 
 div.introimage{
-    width:40%;
-    margin: 2em 0; 
+    width:100%;
+    padding: 4em 0em 3em 1em ;
+    background-color: #e3d5e8;
+    text-align: center;
+
+}
+
+div.introimage img {
+    width: 40%
 }
 
 h2{
     font-family: 'Poppins', sans-serif;
-    font-size: 1.9em;
+    font-size: 2.5em;
     text-transform: lowercase;
     color: #c1a1cc;
-    margin: 0em;
+    margin: 0em 1em .3em 0em;
+    text-align:center;
     
 }
-div.mainmenu h2{
-    float:left;
-}
+
 div.mainmenu ul{
-    float:right;
-    padding: 0em;
+    margin:auto;
+    max-width: 30em;
+    text-align: center;
+    padding: .5em 0em .3em 0em;
+    border-bottom: 1px solid;
 }
 
 div.mainmenu ul li{
     font-family: 'Poppins', sans-serif;
     font-size: 1.2em;
     list-style-type: none;
-    float:left;
+display: inline;
     margin: 0em 0em 0em 1em;
     text-transform: uppercase;
 }
@@ -92,14 +101,15 @@ ul{
 }
 
 div.about p{
-    text-align: center;
+    text-align: left;
     padding: 0 1em 0em 1em;
 }
 
 
 div.about{
     background-color: #e3d5e8;
-    padding: .5em
+    padding: .5em;
+    margin: 3em 0em 0em 0em;
 }
 
 div.about h3{
@@ -108,7 +118,7 @@ div.about h3{
 }
 
 table, th, td {
-  border: .1em solid black;
+  border: .1em solid #000000;
   border-collapse: collapse;
 }
 th, td {
@@ -122,11 +132,39 @@ table{
 th {
   text-align: left;
     font-family: 'Poppins', sans-serif;
-    font-size: .8em;
+    font-size: 1.2em;
 }
 
 td {
   text-align: left;
     font-family: 'Poppins', sans-serif;
-    font-size: .8em;
+    font-size: 1em;
 }  
+
+
+div.intro p{
+    text-align:center;
+}
+
+div.intro{
+    margin:3em 1em 3em 1em;
+}
+
+div.shoppingcart h2{
+    text-align:left;
+}
+.cartproducts {
+    clear: both;
+}
+
+.cartproducts li{
+    width: 45%;
+    display: inline-block;
+    margin-left: auto;
+    margin-right:auto;
+    margin-bottom:2em;
+    padding: 0em 0.5em;
+}
+.cart h2{
+    text-align:left;
+}
